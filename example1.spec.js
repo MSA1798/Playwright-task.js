@@ -2,9 +2,9 @@
 const { test, expect } = require('@playwright/test');
  
 test("githubme", async ({page}) => {
-  await page.goto("https://github.com/aryan1403");
+  await page.goto("https://github.com/MSA1798");
  
-  await expect(page).toHaveTitle(/aryan1403/)
+  await expect(page).toHaveTitle(/MSA1798/)
 })
  
 test("btnclick", async ({page}) => {
